@@ -1,11 +1,8 @@
 # 2D Pattern Matching using NumPy Arrays
 
 In this example, a robot is navigating a 4x5 orange and blue world, shown below. This robot also has a sensor that tells it the color of the square it's on top of and the color of the square directly to its right.
-[image]
-
-[/image]
-[image]
-[/image]
+![2D Grid](images/2DGrid.png "Robot 2D Grid")
+![Sensing](images/RobotSensing.png "Sensing Measurements")
 In Python code, the world and the sensor measurement can be represented by the following code (where 'o' stands for orange and 'b' for blue):
 ```python
 import numpy as np
