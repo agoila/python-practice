@@ -7,7 +7,7 @@ In this example, a robot is navigating a 4x5 orange and blue world, shown below.
 [image]
 [/image]
 In Python code, the world and the sensor measurement can be represented by the following code (where 'o' stands for orange and 'b' for blue):
-```
+```python
 import numpy as np
 
 world = np.array ([ ['o', 'b', 'o', 'o', 'b'],
